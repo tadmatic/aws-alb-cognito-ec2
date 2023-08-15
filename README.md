@@ -1,9 +1,8 @@
-## AWS Serverless API CDK Boilerplate
+## AWS Cognito/ALB Demo
 
-CDK project in Typescript that creates a sample REST API.
+CDK project in Typescript that creates:
 
-Includes:
-* DynamoDB
-* Lambda functions
-* API Gateway REST API
-* Cognito Authorizer
+* An EC2 instance running nginx
+* An Application Load Balancer (ALB)
+* Cognito user pool
+* Integration of ALB with Cognito authorizer

@@ -5,9 +5,11 @@ node_modules
 .idea
 .DS_Store
 
-# CDK asset staging directory
-.cdk.staging
+# CDK asset assets
+cdk.context.json
 cdk.out
+
+# logs
 *.log
 
 # environment files
